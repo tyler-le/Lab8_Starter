@@ -1,5 +1,7 @@
 # Lab 8 - Starter
 
+Individual Lab
+
 1. Where would you fit your automated tests in your Recipe project development pipeline? Select one of the following and explain why.
 
    - Within a GitHub action that runs whenever code is pushed. You want to incrementally run tests so that, if a failure did occur, you could fix it quickly and easily. This is analogous to pushing a big rock up the hill incrementally as shown in lecture.
@@ -14,3 +16,5 @@
 
 4. Would you use a unit test to test the “max message length” feature of a messaging application? Why or why not? For this question, assume the “max message length” feature prevents the user from typing more than 80 characters.
    - Yes, this is an encapsulated unit and isn't dependent on other moving parts of the application.
+
+
